@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  my_echo:
+    container_name: my_test_echo_1
+    image: beylak/hm_test_echo
+    ports:
+      - '8000:8000'
+      - '7777:8000'
